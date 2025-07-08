@@ -1,0 +1,624 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fixed Header Styling */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 30px;
+  font-family: Arial, sans-serif;
+  z-index: 5;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Blue Rectangle Before Name */
+.blue-box {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: blue;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* Bold Name */
+.bold-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Unbolded Full Stack Developer */
+.normal-text {
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+/* Navigation Links */
+.nav a {
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: blue;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: blue;
+}
+
+/* Lower Box */
+.lower-box {
+  background: white;
+  margin-top: 20px;
+  padding: 20px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#contactdv1 {
+  margin-top: 120px;
+  background-color: rgba(230, 218, 206, 255);
+  height: 950px;
+}
+.blue-box2 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+}
+
+/* Bold Name */
+.cname {
+  font-weight: bold;
+  font-size: 18px;
+}
+#contactdv2 {
+  padding-top: 100px;
+  text-align: center;
+}
+.form {
+  max-width: 70%;
+  margin: 80px auto;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
+.button {
+  background-color: blue;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 30px;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+}
+button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid blue;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.box1 {
+  background-color: aqua;
+  position: relative;
+  left: 0;
+  top: 80px;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+.smallbox1 {
+  background-color: rgba(230, 218, 206, 255);
+
+  height: 800px;
+  width: 40%;
+  position: absolute;
+  left: 0px;
+}
+.profilebox {
+  background-color: rgba(245, 237, 230, 255);
+  height: 450px;
+  width: 400px;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  box-shadow: 0px 12px 30px rgba(24, 24, 24, 0.3);
+
+  z-index: 1;
+}
+.smallbox2 {
+  background-color: white;
+  height: 800px;
+  width: 60%;
+  position: absolute;
+  right: 0px;
+}
+/* Profile Image */
+.profile-photo img {
+  background-color: black;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.profile-name {
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.hrow {
+  margin: auto;
+  width: 18%;
+  background-color: blue;
+  height: 3px;
+  margin-top: 20px;
+}
+.profile-position {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin-top: 30px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.profile-social {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  height: 50px;
+  align-items: center;
+  gap: 15px;
+
+  margin-top: 50px;
+}
+.social-icon {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+.social-icon:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+.right-box-hello {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  margin-top: 200px;
+  margin-left: 70px;
+}
+.desciption {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font: normal;
+
+  font-size: 25px;
+  margin-top: 25px;
+  margin-left: 70px;
+}
+.profile-button {
+  margin-top: 30px;
+  margin-left: 70px;
+
+  text-decoration: none;
+}
+.p-button a {
+  display: inline-block;
+  height: 35px;
+  width: 150px;
+  text-decoration: none;
+  background-color: aliceblue;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-left: 40px;
+  padding-top: 8px;
+}
+.p-button a:hover {
+  background-color: blue;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out,
+    border 0.2s ease-in-out;
+}
+
+#p-resume a {
+  background-color: blue;
+  border: none;
+  color: white;
+}
+.p-para {
+  margin-top: 50px;
+  margin-left: 70px;
+  margin-right: 220px;
+  word-spacing: 4px;
+}
+.footer-div {
+  background-color: white;
+  margin-top: 800px;
+  z-index: 2;
+  height: 120px;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  text-align: center;
+}
+.footer-table {
+  margin-top: 20px;
+  width: 100%;
+}
+.footer-table4 {
+  margin-left: 300px;
+}
+.resume-body {
+  background-color: rgba(230, 218, 206, 255);
+  height: 3500px;
+  width: 100%;
+}
+.resume-subbody {
+  height: 2700px;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.r-title {
+  display: inline-block;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  margin-top: 200px;
+
+  font-weight: 900;
+  margin-right: 60px;
+}
+.box2 {
+  display: inline-block;
+  background-color: blue;
+  height: 18px;
+  width: 18px;
+  margin-top: 200px;
+  margin-left: 40%;
+}
+.buttoncv {
+  margin-top: 130px;
+  height: 50px;
+  width: 100%;
+  position: relative;
+}
+
+.cv-button a {
+  position: absolute;
+  right: 10px;
+  height: 38px;
+  width: 150px;
+  text-decoration: none;
+  background-color: blue;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 8px;
+}
+.cv-button {
+  position: absolute;
+  right: 10px;
+  padding-top: 0px;
+}
+.experience {
+  position: absolute;
+  margin-top: 5px;
+  font-weight: bolder;
+}
+.box12 {
+  height: 400px;
+  width: 100%;
+  background-color: white;
+  margin-top: 60px;
+  position: relative;
+}
+.title1 {
+  height: 100%;
+  width: 40%;
+  padding-top: 70px;
+  padding-left: 40px;
+  position: absolute;
+  left: 0px;
+}
+.title-common {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.present {
+  position: relative;
+  margin-top: 30px;
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: large;
+}
+.position {
+  font-size: 20px;
+}
+.c-location {
+  padding-top: 5px;
+}
+.resume-para {
+  font-size: 18px;
+
+  position: absolute;
+  right: 0px;
+  height: 100%;
+  width: 60%;
+  padding-top: 140px;
+  letter-spacing: 2px;
+  padding-left: 60px;
+}
+.lastbox {
+  position: relative;
+  background-color: blanchedalmond;
+}
+.prof-skills {
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  top: 0px;
+  background-color: chocolate;
+}
+.languages {
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  bottom: 0px;
+}
+.resume-last-heading {
+  padding-top: 40px;
+  padding-left: 35px;
+}
+.skills {
+  background-color: brown;
+  height: 40px;
+  width: 100%;
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+}
+.resume-last-bluebox {
+  height: 15px;
+  width: 15px;
+  background-color: blue;
+  margin-left: 33px;
+}
+.skill-span {
+  margin-left: 20px;
+  background-color: chartreuse;
+  width: fit-content;
+  position: absolute;
+}
+a.active {
+  color: blue;
+}
+.projectmainBody {
+  margin-top: 100px;
+  background-color: rgba(230, 218, 206, 255);
+  height: 1900px;
+  width: 100%;
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+}
+.projectsSubBody {
+  margin-top: 140px;
+  margin-bottom: 140px;
+  background-color: rgba(230, 218, 206, 255);
+  width: 65%;
+}
+.projectHeading {
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: center;
+}
+.bluebox {
+  margin-top: 9px;
+  margin-right: 5px;
+  height: 20px;
+  width: 20px;
+  background-color: blue;
+}
+.rojheading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+.projectpara {
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.projectdetails {
+  height: inherit;
+  width: 100%;
+  margin-top: 80px;
+}
+.project {
+  height: 400px;
+  background-color: white;
+  margin-top: 80px;
+  width: inherit;
+  display: flex;
+}
+.projectpara2 {
+  height: 100%;
+  width: 60%;
+  background-color: white;
+}
+.projectimg {
+  height: 100%;
+  width: 40%;
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  /* overflow: hidden; */
+  position: relative;
+}
+.projectimage {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.paratitle {
+  height: 50px;
+  width: 100%;
+  margin-top: 70px;
+  position: relative;
+}
+.rectanglebox {
+  background-color: blue;
+  height: 100%;
+  width: 9px;
+  position: absolute;
+  left: 0;
+}
+.projectname {
+  color: blue;
+  position: absolute;
+  left: 30px;
+  top: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+}
+.role {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.projectdesc {
+  margin: 10px 40px 50px 40px;
+  letter-spacing: 2px;
+  font-size: 18px;
+  align-items: center;
+}
+.fblogo {
+  height: 20px;
+  width: 20px;
+  padding: 4px;
+  align-self: center;
+}
+.skillsetheading {
+  font-size: 18px;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+
+  padding-left: 8%;
+  padding-top: 80px;
+}
+.skillset01 {
+  margin-top: 20px;
+  height: 50px;
+
+  position: relative;
+}
+.skillbluebox101 {
+  height: 13px;
+  width: 13px;
+  background-color: blue;
+  position: absolute;
+  top: 35%;
+  left: 8%;
+}
+.skillsettitle101 {
+  width: 200px;
+
+  top: 28%;
+  left: 11%;
+  position: absolute;
+}
+.skillbluebox102 {
+  height: 13px;
+  width: 13px;
+  background-color: blue;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.skillsettitle102 {
+  width: 200px;
+
+  position: absolute;
+  top: 28%;
+  left: 53%;
+}
+.skillset02 {
+  margin-top: 20px;
+  height: 50px;
+
+  position: relative;
+}
+.skillset {
+  height: 600px;
+  position: relative;
+}
+.profe {
+  height: 50%;
+  top: 0%;
+}
+.languageskillset {
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  bottom: 0px;
+}

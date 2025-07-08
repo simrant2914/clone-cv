@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="CVstyle.css" />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      input {
+        border: none; /* Remove border */
+        border-bottom: 2px solid black; /* Add an underline */
+        outline: none; /* Remove outline */
+        font-size: 16px; /* Adjust font size */
+        padding: 5px 0; /* Adjust spacing */
+        width: 100%; /* Ensure it stretches properly */
+        background: transparent; /* Remove background */
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <span class="blue-box"></span>
+        <span class="bold-name">SIMRAN THAKUR</span>
+        <span class="normal-text">/ FULL STACK DEVELOPER</span>
+      </div>
+      <nav class="nav">
+        <a href="about.html">About Me</a>
+        <a href="resume.html" >Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </header>
+    <div id="contactdv1">
+      <div id="contactdv2">
+        <span class="blue-box2"></span>
+        <span class="profile-name" style="font-size: 35px">Let's talk</span>
+      </div>
+
+      <div class="form">
+        <form class="contact-form" method="post">
+          <table cellspacing="35">
+            <tr>
+              <td><label for="fname">First name *</label></td>
+              <td><label for="lname">Last name</label></td>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  type="text"
+                  name=""
+                  id="fname"
+                  required
+                  pattern="[A-Za-z ]{2,20}"
+                  title="Enter a first name."
+                />
+              </td>
+              <td>
+                <input
+                  type="text"
+                  name=""
+                  id="lname"
+                  required
+                  pattern="[A-Za-z ]{2,20}"
+                  title="Enter a last name."
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td colspan="2"><label for="mail">Email *</label></td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <input
+                  type="mail"
+                  name=""
+                  id="mail"
+                  required
+                  title="Enter a last name."
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td colspan="2"><label for="subject">Subject</label></td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <input type="text" name="" id="subject" />
+              </td>
+            </tr>
+
+            <tr>
+              <td colspan="2"><label for="message">Message</label></td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <input type="text" name="" id="message" />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <button type="submit" class="button">Send</button>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+
+
+
+
+
+      <div class="contact-footer">
+        <table class="footer-table" cellspacing="30" align="center">
+          <tr>
+            <td colspan="3">
+              <span class="footer-table-1">
+              © 2035 by Simran Thakur.<br />
+              Powered and secured by <a href="https://www.wix.com/">Wix</a>
+            </span>
+            </td>
+            <td>
+              <span class="footer-table-2">
+              <strong>Call</strong><br />
+              123-456-7890
+            </span>
+            </td>
+            <td>
+              <span class="footer-table-3">
+              <strong>Write</strong><br />
+              simranthakur2914@gamail.com
+            </span>
+            </td>
+            <span class="footer-table-4">
+
+            <td><strong>Follow</strong><br />
+              <span><a href="https://www.facebook.com/"><img src="fb-logo.png" class="fblogo"></a></span>
+              <span><a href="https://x.com/?lang=en"><img src="twitter-logo.svg" class="fblogo"></a></span>         
+              <span><a href="https://www.linkedin.com/"><img src="linked-logo.png" class="fblogo"></a></span>
+              <span><a href="https://www.instagram.com/"><img src="insta-logoo.png" class="fblogo"></a></span>
+            </span></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
